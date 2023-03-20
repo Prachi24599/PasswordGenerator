@@ -1,0 +1,1 @@
+const inputSlider = document.querySelector;
