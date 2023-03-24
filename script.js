@@ -104,7 +104,7 @@ function shufflePassword(array) {
   for (let i = array.length - 1; i > 0; i--) {
     //random J = find out using random function
     const j = Math.floor(Math.random() * (i + 1));
-    //swao the number at ith index with jth index
+    //swap the number at ith index with jth index
     const temp = array[i];
     array[i] = array[j];
     array[j] = temp;
